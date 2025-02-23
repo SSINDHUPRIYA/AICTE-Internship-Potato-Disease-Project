@@ -1,0 +1,16 @@
+# Ignore virtual environments
+tensorflow_env/
+.venv/
+
+# Ignore unnecessary files
+__pycache__/
+*.log
+*.tmp
+.DS_Store
+
+# Ignore dataset files (if needed)
+dataset/
+
+# Ignore large model files (track separately using Git LFS)
+*.h5
+*.keras
